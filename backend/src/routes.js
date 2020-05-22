@@ -25,6 +25,7 @@ routes.delete('/incidents/:id', IncidentController.delete);
 //listagem de casos de ongs especificas
 routes.get('/profile', ProfileController.index);
 
+//login
 routes.post('/sessions', SessionController.create)
 
 module.exports = routes;
